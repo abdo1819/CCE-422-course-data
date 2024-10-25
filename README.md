@@ -15,13 +15,15 @@ This project sets up an Oracle 23ai Database using Docker Compose. It's a great 
 
 3. Start the Oracle 23ai Database container:
    ```
-   docker-compose up -d   ```
+   docker-compose up -d   
+   ```
 
    This command will download the Oracle 23ai image (if not already present) and start the container in detached mode.
 
 4. Wait for the container to fully start. This may take a few minutes. You can check the logs with:
    ```
-   docker-compose logs -f   ```
+   docker-compose logs -f   
+   ```
 
 5. Once the container is running, you can connect to the database using SQL*Plus, SQL Command Line, or VS Code with the Oracle SQL Developer extension.
 
