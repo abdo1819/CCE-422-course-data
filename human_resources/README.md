@@ -62,6 +62,9 @@ Required access to `hr_install.sql`, `hr_create.sql`, `hr_populate.sql`, `hr_cod
 **Note:** If the HR schema already exists, it is removed/dropped and 
         a fresh HR schema is installed
 
+## vscode installation
+![alt text](install.png)
+
 ## Uninstall Instructions
 
 1. Connect as privileged user with rights to create another user (`SYSTEM`, `ADMIN`, etc.)

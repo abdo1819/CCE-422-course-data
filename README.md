@@ -61,10 +61,13 @@ sqlplus system/SysPassword1@//localhost/FREEPDB1
 
 Configure a new connection with the following details:
 - Hostname: localhost
-- Port: 9521
-- Service name: FREEPDB1
+- Port: 8521
+- Service name: freepdb1
 - Username: system
 - Password: SysPassword1
+
+![alt text](connect.png)
+
 
 ## Important Notes
 
